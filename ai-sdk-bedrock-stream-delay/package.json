@@ -1,0 +1,17 @@
+{
+  "name": "ai-sdk-bedrock-stream-delay",
+  "version": "1.0.0",
+  "description": "Bug reproduction: Vercel AI SDK streamText delay with AWS Bedrock",
+  "main": "reproduce-ai-sdk-delay.ts",
+  "scripts": {
+    "reproduce": "tsx reproduce-ai-sdk-delay.ts"
+  },
+  "dependencies": {
+    "ai": "^3.4.33",
+    "@ai-sdk/amazon-bedrock": "^1.0.10"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
