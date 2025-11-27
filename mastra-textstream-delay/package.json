@@ -1,0 +1,17 @@
+{
+  "name": "mastra-textstream-delay-reproduction",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for Mastra textStream iterator delay issue",
+  "type": "module",
+  "scripts": {
+    "reproduce": "tsx mastra-bug-reproduction.ts"
+  },
+  "dependencies": {
+    "@mastra/core": "latest",
+    "@ai-sdk/anthropic": "latest"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
